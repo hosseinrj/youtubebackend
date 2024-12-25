@@ -11,7 +11,7 @@ from telebot import types
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 
 # Initialize bot
-BOT_TOKEN = os.environ.get('8107572268:AAHW-EN2y5WiUSuxGsqbRCA8L1P0B3sR8Og')
+BOT_TOKEN = '8107572268:AAHW-EN2y5WiUSuxGsqbRCA8L1P0B3sR8Og'
 bot = AsyncTeleBot(BOT_TOKEN)
 
 # Initialize Firebase
